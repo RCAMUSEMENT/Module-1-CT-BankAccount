@@ -36,11 +36,4 @@ Welcome to Ryley's **Bank Account Management System**! This project was created 
 
 ---
 
-## 🚀 How to Run
-
-1.  Compile all files: `javac *.java`
-2.  Run the test class: `java BankAccountTest`
-
----
 **Made by Ryley Carlson**
-
