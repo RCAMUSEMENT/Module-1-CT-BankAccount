@@ -1,5 +1,15 @@
 import java.util.Scanner;
 
+//Part 3: BankAccountTest Class
+// The BankAccountTest class serves as the driver for the application, allowing users to interact with
+// the CheckingAccount class through a console-based interface. It prompts the user for necessary information
+// to set up their account and provides options for depositing, withdrawing, applying interest, and viewing the account summary.
+// The class includes input validation to ensure that users enter valid data for account setup and transactions,
+// enhancing the robustness of the application. The main method orchestrates the flow of the program,
+// guiding users through their banking experience while maintaining a user-friendly interface.
+// The program continues to run until the user decides to exit, at which point a final account summary is displayed,
+// providing a comprehensive overview of the user's overall banking activity.
+
 public class BankAccountTest {
     public static void main(String[] args) {
         try (Scanner scnr = new Scanner(System.in)) {

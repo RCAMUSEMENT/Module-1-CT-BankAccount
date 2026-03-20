@@ -1,3 +1,9 @@
+// Part 2: CheckingAccount Subclass
+// The CheckingAccount class extends the BankAccount class, inheriting its attributes and behaviors while adding specific features relevant to a checking account.
+//This subclass introduces an interest rate attribute and includes logic for handling overdrafts.
+ // The processWithdrawal method overrides the withdrawal behavior to apply an overdraft fee if the account balance becomes negative after a withdrawal.
+ // The displayAccount method provides a way to show all relevant information about the checking account, including the inherited attributes and the specific interest rate.
+ // Additionally, the processInterest method calculates and applies interest to the account balance based on the current balance and the specified interest rate, allowing the account to grow over time.
 public class CheckingAccount extends BankAccount {
     private double interestRate;
     private static final double OVERDRAFT_FEE = 30.0;
